@@ -17,7 +17,7 @@ class PreAcessoSalaTest {
         assertEquals(4, PreAcessoSala.mostrarQuantidadeDeJogadores(sala));
     }
     @Test
-    void contarQuantidadeDeJogadores(){
+    void deveContarQuantidadeDeJogadores(){
         SalaDeJogo sala = new SalaDeJogo(
                 new Jogador("XeronildoXD2014", true),
                 new Jogador("xXBalaXx", false),
@@ -26,6 +26,6 @@ class PreAcessoSalaTest {
                 new Jogador("XXRobsonYY", true),
                 new Jogador("KL78221", true)
         );
-        assertEquals(4, PreAcessoSala.contarQuantidadeDeJogadoressala));
+        assertEquals(6, PreAcessoSala.contarQuantidadeDeJogadores(sala));
     }
 }
